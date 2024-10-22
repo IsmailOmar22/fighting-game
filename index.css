@@ -1,0 +1,113 @@
+#playerhealth {
+    background-color: red;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+#playerbar{
+    position: absolute;
+    background-color: #818cf8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border: 4px solid white;
+    border-right: 0;
+}
+#playerparent{
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+#bigContainer{
+    position: relative;
+    display: none;
+}
+#smallContainer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+#timer{
+    background-color: grey;
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 4px solid white;
+
+}
+#enemyhealth{
+    background-color: red;
+    height: 30px;
+}
+html{
+    *{
+        box-sizing: border-box;
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+#enemybar{
+    position: absolute;
+    background-color: #818cf8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;;
+    border: 4px solid white;
+    border-left: 0;
+
+}
+#enemyparent{
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+#displayText{
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+#homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#homePage h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#playButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#playButton:hover {
+    background-color: #818cf8;
+}
+
